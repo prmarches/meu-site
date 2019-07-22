@@ -20,10 +20,10 @@ git commit
 #O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. Uso:
 
 git commit –m “coloque sua mensagem aqui”
-git status
-#O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados. Uso:
 
 git status
+#O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados. Uso:
+git
 
 git push 
 #é outro dos comandos git básicos mais usados. Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho. Por exemplo:
@@ -141,3 +141,26 @@ git rebase
 git rebase master
 #Conclusão
 #Alguns dos comandos git básicos usados com frequência. Certifique-se de verificar o nosso tutorial GIT para uma instrução fácil de seguir sobre como configurar e usar GIT.
+
+git checkout -b design
+#Com este comando criamos uma nova branch chamada design. Se quiser criar e já mudar para a branch nova, basta dar o comando git checkout -b design, que indica que você quer mudar para a branch design, mas ao mesmo tempo criá-la com a opção -b que representa nova branch.
+
+git branch nomeDaBranch -b 
+#cria nova branch e altera para a ela.
+
+git branch -d
+#Deleta branch local
+
+git push -u origin design
+#Cria branch remota e o "-u" cria ligação entre a local e remota
+
+git branch -a
+# lista as locais e remotas
+
+git checkout -t origin/nomeDaBranch
+# Este comando cria branch local a partir da remota, muda para ela e ja cria link local e remota.
+
+git push origin :nomeDaBranch
+#remove branch remota
+
+
