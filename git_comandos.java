@@ -67,7 +67,7 @@ git diff --base <file-name>
 
 git diff <source-branch> <target-branch>
 //Para simplesmente listar todos os conflitos atuai, use:
-git diff
+git d
 git tag
 //A marcação é usada para marcar compromissos específicos com alças simples. Um exemplo pode ser:
 
@@ -105,9 +105,10 @@ git ls-tree HEAD
 git cat-file
 //Usando o valor SHA-1, exiba o tipo de um objeto usando o comando git cat-file. Por exemplo:
 
-git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4
-git grep
-//git grep permite que um usuário procure através das árvores de conteúdo frases e / ou palavras. Por exemplo, para pesquisar www.hostinger.com em todos os arquivos use:
+git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4g it grep //git grep
+permite que um usuário procure através das árvores de conteúdo frases e / ou
+palavras. Por exemplo, para pesquisar www.hostinger.com em todos os arquivos
+use:
 
 git grep "www.hostinger.com"
 gitk
