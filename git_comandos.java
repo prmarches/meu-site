@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿
 
 git config
@@ -169,6 +170,8 @@ git push origin :nomeDaBranch
 
 
 =======
+=======
+>>>>>>> 214cd1f98deae41cff9a51e016732ebf718fe40e
 =======
 >>>>>>> 214cd1f98deae41cff9a51e016732ebf718fe40e
 ﻿Versao teste
